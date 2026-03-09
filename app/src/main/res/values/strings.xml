@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="result">Result</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="perimeter">Perimeter</string>
+    <string name="area">Area</string>
+    <string name="e_g_5_5">e.g. 5.5</string>
+    <string name="enter_value_radius_or_side">Enter value (radius or side):</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+    <string name="triangle">Triangle</string>
+    <string name="select_figure">Select figure:</string>
+    <string name="open">Open</string>
+    <string name="storage_is_empty">Storage is empty.</string>
+</resources>
