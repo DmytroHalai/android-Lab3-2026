@@ -13,4 +13,5 @@
     <string name="select_figure">Select figure:</string>
     <string name="open">Open</string>
     <string name="storage_is_empty">Storage is empty.</string>
+    <string name="clear">Clear</string>
 </resources>
