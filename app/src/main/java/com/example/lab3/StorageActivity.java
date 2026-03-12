@@ -16,7 +16,7 @@ import java.nio.charset.StandardCharsets;
 public class StorageActivity extends AppCompatActivity {
 
     private static final String STORAGE_FILE = "history.txt";
-    private static String content;
+    private String content;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -65,6 +65,7 @@ public class StorageActivity extends AppCompatActivity {
             return sb.toString();
 
         } catch (Exception e) {
+            System.out.println("Error reading file occurred:" + e.getMessage());
             return "";
         }
     }

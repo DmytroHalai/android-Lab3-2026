@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         boolean saved = appendToFile(result);
         Toast.makeText(
                 this,
-                saved ? "Sucessfully written in the file" : "Error during writing occurred",
+                saved ? "Successfully written in the file" : "Error during writing occurred",
                 Toast.LENGTH_LONG
         ).show();
 
